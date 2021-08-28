@@ -94,3 +94,7 @@ h2 {
 #below-head {
     display: inline-block;
 }
+
+.card-text {
+    text-align: left;
+}
