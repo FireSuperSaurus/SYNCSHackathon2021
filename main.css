@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .header {
-    padding: 60px;
+    padding: 10px;
     text-align: left;
     background: #e5e5e5;
     color: black;
@@ -9,17 +9,57 @@
     font-family: "Open Sans";
 }
 
+body {
+    background: white;
+}
+
+
+.padding {
+    padding: 10rem !important
+}
+
+.domain-form .form-group {
+    border-radius: 10px;
+    border: 5px solid #b8b4e4;
+}
+
+.domain-form .form-group input {
+    height: 70px !important;
+    border: transparent
+}
+
+.form-control {
+    height: 52px !important;
+    background: #fff !important;
+    color: #3a4348 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.px-4 {
+    padding-left: 1.5rem !important
+}
+
 p {
     text-align: center;
     font-family: "Open Sans";
+    font-weight: bolder;
     font-size: 30px;
 }
 
 * {
     box-sizing: border-box;
   }
+
+  .sponsor {
+      padding: 50px;
+      width: 90%;
+      margin: auto;
+  }
   
-  .row {
+  .rows {
     display: flex;
     background: #e5e5e5;
   }
@@ -30,9 +70,27 @@ p {
     padding: 30px;
   }
 
-.footer {
+footer {
     padding: 10px;
-    text-align: left;
     background: #383444;
     color: white;
+}
+
+.text {
+    float: left;
+    padding-right: 1400px;
+}
+
+h2 {
+    margin-left: 60px;
+    display: inline;
+}
+
+.btn-group {
+    margin-left: 1500px;
+    display: inline;
+}
+
+#below-head {
+    display: inline-block;
 }

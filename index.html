@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <title>Collect-OZ - Homepage</title>
+    <script src="script.js"></script> 
+    <title>Ibidem - Homepage</title>
   </head>
   <body>
     <div class="header">
-      <h1><strong>Welcome to Collect-OZ!</strong></h1>
-      <h6>By collectors, for collectors</h3>       
+      <img src="best_logo.png" style="width: 20%;">
+      <h1 style="font-weight: bolder; margin-left: 30px;">Welcome to Ibidem!</h1>
+      <h6 style="margin-left: 30px;">All your collectibles in the same place</h3>       
     </div>
 
 
@@ -40,21 +41,33 @@
     </div>
     <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button> 
     <div id="liveAlertPlaceholder"></div>
-    <script src="script.js"></script>  
+ 
 
     <div class="column">
       <img src="csesocgreyblue.png" alt="CSESoc logo" style="width: 80%;">
     </div>
- 
--->
-<div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="pokemon cards">
+
+    <div class="form-floating mb-3">
+  <input type="searchbar" class="form-control" id="floatingInput" placeholder="pokemon cards">
   <label for="floatingInput">Type in your search</label>
   <p>Use keywords such as 'Pokemon' or 'Bath Water'</p>
 </div>
+ 
+-->
 
-  <div class="row">
-    <h1>Sponsors</h1>
+<div class="row justify-content-center padding">
+  <div class="col-md-8 ftco-animate fadeInUp ftco-animated">
+      <form action="#" class="domain-form">
+          <div class="form-group d-md-flex"> <input type="text" class="form-control px-4" placeholder="Type in your search..."> <input type="submit" onclick = "openResult()" class="search-domain btn btn-primary px-5" value="Enter"> </div>
+      </form>
+  </div>
+</div>
+
+<p>Use keywords such as 'Pokemon' or 'Bath Water'</p>
+
+<div class="sponsor">
+  <div class="rows">
+    <h1 style="font-weight: bolder;">Sponsors</h1>
     <div class="column">
       <img src="facebook marketplace.png" alt="Facebook Marketplace logo" style="width: 60%;">
     </div>
@@ -68,14 +81,36 @@
       <img src="Etsy logo.png" alt="Etsy logo" style="width: 60%;">
     </div>
   </div>
+  <div class="rows">
+    <div class="column">
+      <img src="canva_logo.png" alt="Canva logo" style="width: 40%;">
+    </div>
+    <div class="column">
+      <img src="nintendo.png" alt="Nintendo logo" style="width: 80%;">
+    </div>
+    <div class="column">
+      <img src="csesocgreyblue.png" alt="CSESoc logo" style="width: 80%;">
+    </div>    
+  </div>  
+</div>
+
   
   
   
 
 
-  <div class="footer">
-    <h6>&#169; Collect-OZ</h6>      
-  </div>
+  <footer>
+    <div class="text">
+      <h6>&#169; Ibidem</h6> 
+    </div>
+    <div class="images">
+      <img src="fb icon.png" style="width: 30px;">
+      <img src="linkedin.png" style="width: 30px;">
+      <img src="insta logo.png" style="width: 30px;">
+      <img src="youtube icon.png" style="width: 30px;">
+      <img src="discord icon.png" style="width: 30px;">
+    </div>    
+  </footer>
 
   </body>
 </html>
