@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
-    <title>Ibidem - Result Page</title>
+    <script src="script.js"></script>
+    <title>Ibidem - Marvel-Verse: Iron Man</title>
 </head>
 <body>
   <div class="header">
@@ -27,7 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
     <div id="below-head">
-    <h2>2583 Results for "Comic Book"</h2>
+    <h2>8 Results for "Marvel-Verse: Iron Man"</h2>
 
     <div class="btn-group">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,9 +45,7 @@
     <div class="card mb-3" style="max-width: 1500px; margin: auto;">
         <div class="row g-0">
           <div class="col-md-4">
-            <a href="iron_man.html">
-                <img src="ironman.jpeg" class="img-fluid rounded-start" alt="Marvel-Verse: Iron Man">
-            </a>
+            <img src="ironman.jpeg" class="img-fluid rounded-start" alt="Marvel-Verse: Iron Man">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -66,52 +64,90 @@
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width: 1500px; margin: auto;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="spoods.jpeg" class="img-fluid rounded-start" alt="Spider-Man/Venom (2020) #1">
-          </div>
-          <div class="col-md-8">
+      <div class="row row-cols-1 row-cols-md-2 g-4" style="max-width: 1525px; margin: auto;">
+        <div class="col" onclick = "openBD()">
+          <div class="card">
+            <img src="Book_Depository-Logo.png" class="card-img-top" alt="Book Depository Logo" style="width:65%;">
             <div class="card-body">
-              <p class="card-text">“Spider-Man/Venom (2020) #1”</p>
-              <p class="card-text"><small class="text-muted">Condition: 9.8 (NM/MT)</small></p>
-              <p class="card-text"><small class="text-muted">Grading: CGC 7.6</small></p>
-              <p class="card-text"><small class="text-muted">Rarity: Common</small></p>
-              <p class="card-text"><small class="text-muted">Edition: 1st</small></p>
-              <p class="card-text"><small class="text-muted">Further details:</small></p>
-              <break></break>
-              <h1 class="card-text">Best Price</h1>
-              <h1 class="card-text">$16.15</h1>
-              <img src="Amazon logo.png" alt="Amazon Logo" style="width: 30%;">
+            <h5 class="card-title">Go to bookdepository.com</h5>
+              <p class="card-text">Best Price</p>
+              <h1 class="card-text">$20.82</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col" onclick="openEbay()">
+          <div class="card">
+            <img src="EBay_logo.png" class="card-img-top" alt="ebay logo">
+            <div class="card-body">
+                <h5 class="card-title">Go to ebay.com</h5>
+                <p class="card-text">Best Price</p>
+                <p class="card-text">$21.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" onclick="openAmazon()">
+          <div class="card">
+            <img src="Amazon logo.png" class="card-img-top" alt="Amazon Logo">
+            <div class="card-body">
+              <h5 class="card-title">Go to amazon.com</h5>
+              <p class="card-text">Best Price</p>
+              <p class="card-text">$21.55</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="harry.png" class="card-img-top" alt="Harry Hartog Logo" style="padding: 105px;">
+            <div class="card-body">
+              <h5 class="card-title">Go to harryhartog.com</h5>
+              <p class="card-text">Best Price</p>
+              <p class="card-text">$22.60</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width: 1500px; margin: auto;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="deadpewl.jpeg" class="img-fluid rounded-start" alt="Deadpool (2018) #1">
-          </div>
-          <div class="col-md-8">
+      <div class="row row-cols-1 row-cols-md-2 g-4" style="max-width: 1525px; margin: auto;">
+        <div class="col" onclick = "openBD()">
+          <div class="card">
+            <img src="booktopia.png" class="card-img-top" alt="Booktopia Logo" style="padding: 100px;">
             <div class="card-body">
-              <p class="card-text">“Deadpool (2018) #1”</p>
-              <p class="card-text"><small class="text-muted">Condition: 9.9 (MT)</small></p>
-              <p class="card-text"><small class="text-muted">Grading: CGC 9.0</small></p>
-              <p class="card-text"><small class="text-muted">Rarity: Common</small></p>
-              <p class="card-text"><small class="text-muted">Edition: 1st</small></p>
-              <p class="card-text"><small class="text-muted">Further details:</small></p>
-              <break></break>
-              <h1 class="card-text">Best Price</h1>
-              <h1 class="card-text">$10.34</h1>
-              <img src="EBay_logo.png" alt="ebay Logo" style="width: 30%;">
+            <h5 class="card-title">Go to booktopia.com</h5>
+              <p class="card-text">Best Price</p>
+              <h1 class="card-text">$22.99</h1>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Load more...</button>
+        <div class="col" onclick="openEbay()">
+          <div class="card">
+            <img src="kinokuniya.png" class="card-img-top" alt="Kinokuniya logo" style="width:83%;">
+            <div class="card-body">
+                <h5 class="card-title">Go to kinokuniya.com</h5>
+                <p class="card-text">Best Price</p>
+                <p class="card-text">$23.50</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" onclick="openAmazon()">
+          <div class="card">
+            <img src="dymocks.png" class="card-img-top" alt="Dymocks Logo" style="width:40%; margin: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Go to dymocks.com</h5>
+              <p class="card-text">Best Price</p>
+              <p class="card-text">$24.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="qbd.png" class="card-img-top" alt="QBD Logo" style="width:40%; margin: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Go to QBDBooks.com</h5>
+              <p class="card-text">Best Price</p>
+              <p class="card-text">$24.55</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     <footer>
