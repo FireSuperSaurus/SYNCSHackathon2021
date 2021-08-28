@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 .header {
     padding: 60px;
     text-align: left;
     background: #e5e5e5;
     color: black;
     font-size: 30px;
+    font-family: "Open Sans";
 }
 
 p {
     text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    background: #e5e5e5;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 30px;
+  }
+
+.footer {
+    padding: 10px;
+    text-align: left;
+    background: #383444;
+    color: white;
 }
